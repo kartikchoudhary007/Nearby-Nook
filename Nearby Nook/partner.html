@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Become a Partner - Nearby Nook</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-leaf me-2"></i>Nearby Nook
+            </a>
+            <div class="d-flex align-items-center gap-3">
+                <a href="index.html" class="btn btn-outline-custom btn-sm">Back to Home</a>
+                <button class="theme-switch" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Partner Hero -->
+    <section class="hero-section pb-0">
+        <div class="container">
+            <div class="row align-items-center justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="hero-title">Grow Your Business<br>with Nearby Nook</h1>
+                    <p class="hero-subtitle">Join thousands of local stores reaching new customers every day. Simple
+                        registration, powerful tools.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8 text-center">
+                    <img src="assets/images/partner-bg.png" alt="Partnership" class="img-fluid rounded-4 shadow-lg mb-5"
+                        style="max-height: 400px; object-fit: cover; width: 100%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="py-5" style="background-color: var(--bg-body);">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card shadow-lg p-4 border-0" style="background-color: var(--card-bg);">
+                        <div class="card-body">
+                            <h3 class="fw-bold mb-4 text-center">Partner Registration</h3>
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Store Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-store"></i></span>
+                                            <input type="text" class="form-control"
+                                                placeholder="e.g. Green Valley Grocers">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Owner Name</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-bold">Store Address</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                                            <input type="text" class="form-control"
+                                                placeholder="123 Local Street, City">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Phone Number</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                            <input type="tel" class="form-control" placeholder="+1 234 567 890">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="form-label fw-bold">Business Category</label>
+                                        <select class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option value="1">Grocery Store</option>
+                                            <option value="2">Restaurant / Food Point</option>
+                                            <option value="3">Bakery</option>
+                                            <option value="4">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label class="form-label fw-bold">Description</label>
+                                        <textarea class="form-control" rows="3"
+                                            placeholder="Tell us a bit about your store..."></textarea>
+                                    </div>
+                                    <div class="col-12 mt-4 text-center">
+                                        <button type="submit" class="btn btn-primary-custom w-100 btn-lg">Submit
+                                            Application</button>
+                                        <p class="text-muted small mt-2">By submitting, you agree to our Terms &
+                                            Conditions.</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
