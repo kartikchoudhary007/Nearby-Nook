@@ -1,9 +1,9 @@
-// Theme Handling
+
 const themeToggle = document.getElementById('theme-toggle');
 const htmlElement = document.documentElement;
 const themeIcon = themeToggle.querySelector('i');
 
-// Check for saved theme
+
 const savedTheme = localStorage.getItem('theme') || 'light';
 document.documentElement.setAttribute('data-theme', savedTheme);
 updateIcon(savedTheme);
@@ -26,3 +26,4 @@ function updateIcon(theme) {
         themeIcon.classList.add('fa-moon');
     }
 }
+
