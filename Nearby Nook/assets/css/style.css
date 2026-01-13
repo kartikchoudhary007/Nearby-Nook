@@ -1,5 +1,5 @@
 :root {
-    /* Color Palette - Fresh & Premium */
+    
     --primary-color: #2ecc71;
     --primary-dark: #27ae60;
     --accent-color: #e67e22;
@@ -11,7 +11,7 @@
     --text-light: #f8f9fa;
     --text-muted: #64748b;
     
-    /* Variables for transitions */
+    
     --transition-speed: 0.3s;
 }
 
@@ -36,7 +36,7 @@
 body {
     background-color: var(--bg-body);
     color: var(--text-color);
-    font-family: 'Outfit', sans-serif; /* Modern, clean font */
+    font-family: 'Outfit', sans-serif; 
     transition: background-color var(--transition-speed) ease, color var(--transition-speed) ease;
 }
 
@@ -197,3 +197,4 @@ body {
 .floating-icon {
     animation: float 4s ease-in-out infinite;
 }
+
